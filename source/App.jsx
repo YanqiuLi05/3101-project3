@@ -20,13 +20,14 @@ const STICKER_SLOTS = {
 }
 
 const PALETTE = [
-  { id: "sticker1", src: "/stickers/sticker1.png" },
-  { id: "sticker2", src: "/stickers/sticker2.png" },
-  { id: "sticker3", src: "/stickers/sticker3.png" },
-  { id: "sticker4", src: "/stickers/sticker4.png" },
-  { id: "sticker5", src: "/stickers/sticker5.png" },
-  { id: "sticker6", src: "/stickers/sticker6.png" },
-]
+  { id: "sticker1", src: "stickers/sticker1.png" },
+  { id: "sticker2", src: "stickers/sticker2.png" },
+  { id: "sticker3", src: "stickers/sticker3.png" },
+  { id: "sticker4", src: "stickers/sticker4.png" },
+  { id: "sticker5", src: "stickers/sticker5.png" },
+  { id: "sticker6", src: "stickers/sticker6.png" },
+];
+
 
 export default function App() {
   const [imgURL] = useState(basePattern)
